@@ -1,8 +1,8 @@
 ,2_features,4_features,6_features,8_features,10_features
-roc_auc,0.8409631071940972,0.8264571291931407,0.8163585775773724,0.8782309899569583,0.875913267746123
-f1_macro,0.7969497869006619,0.7294241090130329,0.7389554109681857,0.7674086310220896,0.7754442623234941
-accuracy,0.8021739130434783,0.7391304347826086,0.75,0.7782608695652173,0.7858695652173913
-recall,0.789764705882353,0.7543529411764707,0.758313725490196,0.781921568627451,0.7897254901960784
-precision,0.8587556712647227,0.781719150492925,0.8070131891501642,0.8386048279939325,0.8429041860558646
-jaccard,0.6924088649134021,0.6190552830844125,0.6321589288793418,0.6697330370557842,0.6817338123116068
-best_estimator,"RandomForestClassifier(n_estimators=1, random_state=3030)","RandomForestClassifier(criterion='entropy', n_estimators=47, random_state=3030)","RandomForestClassifier(n_estimators=47, random_state=3030)","RandomForestClassifier(criterion='entropy', n_estimators=23, random_state=3030)","RandomForestClassifier(criterion='entropy', n_estimators=23, random_state=3030)"
+roc_auc,0.84096,0.82646,0.81636,0.87823,0.87591
+f1_macro,0.79695,0.72942,0.73896,0.76741,0.77544
+accuracy,0.80217,0.73913,0.75,0.77826,0.78587
+recall,0.78976,0.75435,0.75831,0.78192,0.78973
+precision,0.85876,0.78172,0.80701,0.8386,0.8429
+jaccard,0.69241,0.61906,0.63216,0.66973,0.68173
+best_hyperparameters,"{'criterion': 'gini', 'n_estimators': 1}","{'criterion': 'entropy', 'n_estimators': 47}","{'criterion': 'gini', 'n_estimators': 47}","{'criterion': 'entropy', 'n_estimators': 23}","{'criterion': 'entropy', 'n_estimators': 23}"
