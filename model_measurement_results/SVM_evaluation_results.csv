@@ -1,8 +1,8 @@
-,2_features,4_features,6_features,8_features,10_features
-roc_auc,0.80362,0.83095,0.81145,0.86662,0.87838
-f1_macro,0.79695,0.79695,0.79695,0.81724,0.80347
-accuracy,0.80217,0.80217,0.80217,0.82174,0.81196
-recall,0.78976,0.78976,0.78976,0.78976,0.79565
-precision,0.85876,0.85876,0.85876,0.89477,0.88357
-jaccard,0.69241,0.69241,0.69241,0.71667,0.70888
-best_hyperparameters,"{'C': 1, 'kernel': 'linear'}","{'C': 1, 'kernel': 'linear'}","{'C': 1, 'kernel': 'linear'}","{'C': 1, 'kernel': 'poly'}","{'C': 10, 'kernel': 'linear'}"
+,3_features,6_features,9_features,12_features,15_features
+roc_auc,0.87121,0.83591,0.87566,0.86525,0.8658
+f1_macro,0.80834,0.81099,0.80727,0.77991,0.79139
+accuracy,0.81087,0.81413,0.81196,0.78913,0.79783
+recall,0.78589,0.76822,0.85857,0.80351,0.80351
+precision,0.87008,0.89672,0.81559,0.83395,0.84203
+jaccard,0.69913,0.69666,0.71791,0.68031,0.68799
+best_hyperparameters,"{'C': 5, 'kernel': 'sigmoid'}","{'C': 1, 'kernel': 'poly'}","{'C': 10, 'kernel': 'linear'}","{'C': 1, 'kernel': 'rbf'}","{'C': 1, 'kernel': 'rbf'}"

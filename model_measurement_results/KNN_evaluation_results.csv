@@ -1,8 +1,8 @@
-,2_features,4_features,6_features,8_features,10_features
-roc_auc,0.8357,0.87929,0.87235,0.89883,0.90619
-f1_macro,0.79695,0.79695,0.79695,0.80503,0.80526
-accuracy,0.80217,0.80217,0.80217,0.81196,0.80978
-recall,0.78976,0.78976,0.78976,0.81529,0.78188
-precision,0.85876,0.85876,0.85876,0.86015,0.87876
-jaccard,0.69241,0.69241,0.69241,0.71412,0.69739
-best_hyperparameters,"{'algorithm': 'brute', 'n_neighbors': 27, 'p': 1}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 1}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 1}","{'algorithm': 'ball_tree', 'n_neighbors': 9, 'p': 1}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 2}"
+,3_features,6_features,9_features,12_features,15_features
+roc_auc,0.87567,0.90767,0.88961,0.91468,0.91404
+f1_macro,0.80142,0.81871,0.8096,0.79775,0.81607
+accuracy,0.80543,0.82065,0.81413,0.80543,0.82065
+recall,0.78,0.78393,0.81532,0.81138,0.85059
+precision,0.87285,0.88614,0.85841,0.85343,0.83708
+jaccard,0.69183,0.70846,0.71227,0.70091,0.72534
+best_hyperparameters,"{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 1}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 1}","{'algorithm': 'brute', 'n_neighbors': 11, 'p': 2}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 2}","{'algorithm': 'ball_tree', 'n_neighbors': 101, 'p': 2}"
